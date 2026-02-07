@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StayEase | Hotel Booking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <h1>Find Your Ideal Hotel, Anytime, Anywhere</h1>
+  <p>Your perfect stay is just a click away.</p>
+  <div class="hero-buttons">
+    <button onclick="scrollToSearch()">Search Hotels</button>
+    <button class="secondary">Explore Destinations</button>
+  </div>
+</section>
+
+<!-- SEARCH -->
+<section class="search" id="search">
+  <h2>Search Hotels</h2>
+  <form id="searchForm">
+    <input type="text" placeholder="City or Hotel Name" required />
+    <input type="date" required />
+    <input type="date" required />
+    <select>
+      <option>1 Guest</option>
+      <option>2 Guests</option>
+      <option>3 Guests</option>
+      <option>4 Guests</option>
+    </select>
+    <button type="submit">Search</button>
+  </form>
+</section>
+
+<!-- RESULTS -->
+<section class="results">
+  <h2>Available Hotels</h2>
+  <div class="hotel-list" id="hotelList"></div>
+</section>
+
+<!-- CHARGES NOTE -->
+<section class="charges-note">
+  <h2>Important Charges & Booking Notes</h2>
+  <ul>
+    <li>All prices are in <strong>Indian Rupees (₹)</strong> per room per day.</li>
+    <li>Room prices depend on availability and season.</li>
+    <li>GST and service charges may apply at booking time.</li>
+    <li>Extra beds, meals, or amenities may cost extra.</li>
+    <li>Check-in: 12:00 PM | Check-out: 11:00 AM</li>
+    <li>Cancellation policy depends on hotel rules.</li>
+  </ul>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <h2>About Us</h2>
+  <p>
+    StayEase is a modern hotel booking platform offering safe, secure,
+    and easy booking for travelers across India.
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>24/7 customer support for all booking-related queries.</p>
+  <button onclick="contactSupport()">Contact Support</button>
+</section>
+
+<footer>
+  <p>© 2026 StayEase. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
