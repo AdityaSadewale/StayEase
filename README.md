@@ -19,6 +19,14 @@ StayEase/
 └── README.md            # This documentation
 🔧 Technologies Used
 
+🗂️ Project Structure
+StayEase/
+├── index.html           # Main landing page
+├── style.css            # Custom CSS styles
+├── script.js            # JavaScript interactions
+└── README.md            # This documentation
+🔧 Technologies Used
+
 HTML5 – Structure of the website
 
 CSS3 – Styling and layout
