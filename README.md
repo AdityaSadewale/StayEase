@@ -26,22 +26,6 @@ StayEase/
 ├── script.js         # JavaScript functionality
 └── README.md         # Project documentation
 
-## 2️⃣ Open the Project
-
-Simply open the `index.html` file in your browser.
-
----
-
-# 📸 Preview
-
-_Add screenshots or GIF previews here._
-
-```markdown
-![Homepage Screenshot](./screenshots/home.png)
-```
-
----
-
 # 🛠️ Future Improvements
 
 Here are some ideas to enhance StayEase into a full-stack hotel booking platform:
