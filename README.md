@@ -26,46 +26,6 @@ StayEase/
 ├── script.js         # JavaScript functionality
 └── README.md         # Project documentation
 
-## 🔧 Technologies Used
-
-<table>
-<tr>
-<td align="center" width="120">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50"/><br>
-<b>HTML5</b>
-</td>
-<td>Website structure</td>
-</tr>
-
-<tr>
-<td align="center">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50"/><br>
-<b>CSS3</b>
-</td>
-<td>Styling & responsive layout</td>
-</tr>
-
-<tr>
-<td align="center">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50"/><br>
-<b>JavaScript</b>
-</td>
-<td>Interactive behavior</td>
-</tr>
-</table>
-
-> ⚠️ This project is fully client-side and does not include any backend or database integration.
-
----
-
-# 🚀 Getting Started
-
-## 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/AdityaSadewale/StayEase.git
-```
-
 ## 2️⃣ Open the Project
 
 Simply open the `index.html` file in your browser.
